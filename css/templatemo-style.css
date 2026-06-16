@@ -66,7 +66,7 @@ p {
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
-    color: #93FAFF;
+    color: #FFAE42;
 }
 .fixed-header ul{
     padding:0;
@@ -86,8 +86,8 @@ p {
 }
 .fixed-header ul li a:hover,
 .fixed-header ul li .current{
-    color: #93FAFF;
-    border-top:2px solid #93FAFF;
+    color: #fff;
+    border-top:2px solid #FFAE42;
 }
 .fixed-header {
     background: transparent;
@@ -164,7 +164,7 @@ p {
 .dark-blue-bordered-btn:hover,
 .dark-blue-bordered-btn:focus,
 .dark-blue-btn {
-    background: #006699;
+    background: FFAE42;
     color: white;    
 }
 .dark-blue-btn:hover,
