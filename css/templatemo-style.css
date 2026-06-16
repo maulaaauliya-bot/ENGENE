@@ -17,7 +17,7 @@ a:focus {
 body{
     margin:0;
     padding:0;
-    background-image:url(../images/back.jpg);
+    background-image:url(../images/backl.jpg);
     background-repeat:no-repeat;
     background-size:100% 100%;
     font-family: 'Open Sans', sans-serif;
@@ -52,9 +52,9 @@ p {
     right: 17px;
     margin: 0;
     z-index: 99999999;
-    color: #fff;
+    color: #FFAE42;
     padding: 10px 10px;
-    background-color: #006699;
+    background-color:#FFAE42;
     border: none;
     font-weight: bold;
     display:none;
@@ -156,10 +156,10 @@ p {
     margin-bottom: 25px;
 }
 .dark-blue-text {
-    color: #006699;
+    color:#FFAE42;
 }
 .light-blue-text {
-    color: #2FACFF;
+    color: #FFAE42;
 }
 .dark-blue-bordered-btn:hover,
 .dark-blue-bordered-btn:focus,
