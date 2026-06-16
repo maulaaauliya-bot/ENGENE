@@ -124,7 +124,7 @@ p {
     min-height:284px !important;    
 }
 .background {
-    background-color: #fff;
+    background-color: #FFAE42;
     padding: 55px 45px;
 }
 .about-text-container {
@@ -156,10 +156,10 @@ p {
     margin-bottom: 25px;
 }
 .dark-blue-text {
-    color:#FFAE42;
+    color:#fff;
 }
 .light-blue-text {
-    color: #FFAE42;
+    color: #fff;
 }
 .dark-blue-bordered-btn:hover,
 .dark-blue-bordered-btn:focus,
