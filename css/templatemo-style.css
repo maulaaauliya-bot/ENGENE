@@ -394,7 +394,7 @@ p {
     .navbar-toggle {
        display:block;
        top: 15px;
-       background-color: white;       
+       background-color: #FFAE42;       
     }
     .fixed-header.scroll .navbar-toggle {
         top: 8px;
