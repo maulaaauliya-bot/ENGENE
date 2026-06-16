@@ -40,5 +40,5 @@ class SoftMinimalismLoginForm extends FormUtils.LoginFormBase {
         });
     }
 }
-
+ 
 document.addEventListener('DOMContentLoaded', () => new SoftMinimalismLoginForm());
