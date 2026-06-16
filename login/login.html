@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soft Minimalism Login</title>
+    <title>Maula Web Masuk</title>
     <meta name="description" content="Warm minimalism login form with organic curves and gentle press feedback.">
     <meta name="author" content="Aigars Silkalns / Colorlib">
     <link rel="canonical" href="https://puikinsh.github.io/login-forms/forms/soft-minimalism/">
@@ -45,20 +45,68 @@
                         <div class="gentle-glow"></div>
                     </div>
                 </div>
-                <h1 class="comfort-title">Welcome back</h1>
-                <p class="gentle-subtitle">Sign in to your peaceful space</p>
+                <h1 class="comfort-title">Masuk</h1>
+                <p class="gentle-subtitle">Masukan Username dan Password</p>
             </div>
             
             <form class="comfort-form" id="loginForm" novalidate>
                 <div class="soft-field">
                     <div class="field-container">
-                        <input type="email" id="email" name="email" required autocomplete="email">
-                        <label for="email">Email address</label>
+                        <input type="username" id="username" name="username" required autocomplete="username">
+                        <label for="email">Username</label>
                         <div class="field-accent"></div>
                     </div>
-                    <span class="gentle-error" id="emailError"></span>
+                    <span class="gentle-error" id="usernameError"></span>
                 </div>
 
+
+                   <script>
+
+        document.getElementById("loginForm").addEventListener("submit", function(e) {
+
+            e.preventDefault(); 
+
+
+
+            const usernameInput = document.getElementById("username").value.trim();
+
+            const passwordInput = document.getElementById("password").value.trim();
+
+
+
+            const alertBox = document.getElementById("alertBox");
+
+               if (usernameInput === "heri" && passwordInput === "123") {
+
+                
+
+                alert("Masuk Sukses! Selamat datang heri.");
+
+                localStorage.setItem("username", usernameInput);
+
+                window.location.href = "../index.html";
+
+                } else {
+
+                alertBox.innerText = "Username atau Password salah, silahkan coba lagi";
+
+                alertBox.style.display = "block";
+
+
+
+                setTimeout(() => {
+
+                    alertBox.style.display = "none";
+
+                }, 3000);
+
+            }
+
+        });
+
+    </script>
+
+                
                 <div class="soft-field">
                     <div class="field-container">
                         <input type="password" id="password" name="password" required autocomplete="current-password">
@@ -88,9 +136,9 @@
                                 <path d="M1 5l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                         </span>
-                        <span class="checkbox-text">Remember me</span>
+                        <span class="checkbox-text">Ingat saya</span>
                     </label>
-                    <a href="#" class="comfort-link">Forgot password?</a>
+                    <a href="#" class="comfort-link">Lupa password?</a>
                 </div>
 
                 <button type="submit" class="comfort-button">
@@ -107,7 +155,7 @@
 
             <div class="gentle-divider">
                 <div class="divider-line"></div>
-                <span class="divider-text">or continue with</span>
+                <span class="divider-text">Lanjutkan dengan</span>
                 <div class="divider-line"></div>
             </div>
 
@@ -135,8 +183,8 @@
             </div>
 
             <div class="comfort-signup">
-                <span class="signup-text">Don't have an account?</span>
-                <a href="#" class="comfort-link signup-link">Sign up</a>
+                <span class="signup-text">Belum punya akun?</span>
+                <a href="register.html" class="comfort-link signup-link">Daftar</a>
             </div>
 
             <div class="gentle-success" id="successMessage">
@@ -152,8 +200,8 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="success-title">Welcome!</h3>
-                <p class="success-desc">Taking you to your dashboard...</p>
+                <h3 class="success-title">Holaa!</h3>
+                <p class="success-desc">Menuju website...</p>
             </div>
         </div>
     </div>
