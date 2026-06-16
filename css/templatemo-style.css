@@ -18,7 +18,7 @@ body{
     margin:0;
     padding:0;
     background-image:url(../images/bac.jpg);
-	background-color:#FFAE42;
+	background-color:#fff;
     background-repeat:no-repeat;
     background-size:100% 100%;
     font-family: 'Open Sans', sans-serif;
@@ -172,8 +172,8 @@ p {
 .dark-blue-btn:focus,
 .dark-blue-bordered-btn {
     background: none;
-    border: 1px solid #FFE18A;
-    color: #FFE18A;
+    border: 1px solid #fff;
+    color: #fff;
 }
 .section-text {
     line-height: 1.6;
