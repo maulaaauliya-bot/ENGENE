@@ -212,40 +212,7 @@ $(window).on("scroll", function() {
 });
 </script>
 
-	<script>
-    
-    const loginMenu = document.getElementById("loginMenu");
-    const registerMenu = document.getElementById("registerMenu");
-    const logoutMenu = document.getElementById("logoutMenu");
-    const authLink = document.getElementById("authLink");
-
-    
-    const isLoggedIn = localStorage.getItem("username");
-
-    if (isLoggedIn) {
-        
-        loginMenu.style.display = "none";    
-        registerMenu.style.display = "none"; 
-        logoutMenu.style.display = "block";  
-
-        authLink.href = "../index.html";
-        loginMenu.href ="../index.html";
-        registerMenu.href="../index.html";
-        
-        authLink.addEventListener("click", function(e) {
-            e.preventDefault(); 
-            
-            localStorage.removeItem("username");
-            alert("Kamu berhasil keluar!");
-
-            window.location.reload();
-            
-            
-             
-        });
-
-    }
-        </script>
+	
 	
 </body>
 </html>
