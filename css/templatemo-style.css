@@ -17,7 +17,8 @@ a:focus {
 body{
     margin:0;
     padding:0;
-    background-image:url(../images/backl.jpg);
+    background-image:url(../images/bac.jpg);
+	background-color:#FFE18A;
     background-repeat:no-repeat;
     background-size:100% 100%;
     font-family: 'Open Sans', sans-serif;
@@ -38,7 +39,7 @@ p {
 .fixed-header{
     width:100%;
     float:left;
-    /*background-color:#023D69;*/
+    /*background-color:#FFAE42;*/
     position:fixed;
     top:0;
     z-index:111;
@@ -52,9 +53,9 @@ p {
     right: 17px;
     margin: 0;
     z-index: 99999999;
-    color: #FFAE42;
+    color: #F2B277;
     padding: 10px 10px;
-    background-color:#FFAE42;
+    background-color:#F2B277;
     border: none;
     font-weight: bold;
     display:none;
@@ -66,7 +67,7 @@ p {
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
-    color: #FFAE42;
+    color: #fff;
 }
 .fixed-header ul{
     padding:0;
@@ -124,7 +125,7 @@ p {
     min-height:284px !important;    
 }
 .background {
-    background-color:#fff;
+    background-color:#F2B277;
     padding: 55px 45px;
 }
 .about-text-container {
@@ -164,15 +165,15 @@ p {
 .dark-blue-bordered-btn:hover,
 .dark-blue-bordered-btn:focus,
 .dark-blue-btn {
-    background: FFAE42;
-    color: white;    
+    background: #FFE18A;
+    color: #FFE18A;    
 }
 .dark-blue-btn:hover,
 .dark-blue-btn:focus,
 .dark-blue-bordered-btn {
     background: none;
-    border: 1px solid #006699;
-    color: #006699;
+    border: 1px solid #FFE18A;
+    color: #FFE18A;
 }
 .section-text {
     line-height: 1.6;
@@ -207,7 +208,7 @@ p {
 .btn-contact {
     font-size: 17px;
     padding: 10px 35px;
-    color: #807D7D;
+    color: #FFE18A;
     font-weight: 300;
     margin-top: 0;
     transition: all 0.3s ease;
@@ -222,24 +223,24 @@ p {
     border: 1px solid #aaa;
 }
 .yellow-btn {
-    background:#ACA633;
-    border:1px solid #ACA633;
+    background:#FFE18A;
+    border:1px solid#FFE18A;
     color:#fff;
 }
 .yellow-btn:hover,
 .yellow-btn:focus {
     background: none;
-    color: #ACA633;
+    color: #FFE18A;
 }
 .green-btn {
-    background:#168887;
-    border:1px solid #168887;
+    background:#FFE18A;
+    border:1px solid #FFE18A;
     color:#fff; 
 }
 .green-btn:hover,
 .green-btn:focus {
     background: none;
-    color: #168887;
+    color: #FFE18A;
 }
 .normal-btn {
     font-size: 16px;
