@@ -39,7 +39,7 @@ p {
 .fixed-header{
     width:100%;
     float:left;
-    /*background-color:#FFAE42;*/
+    background-color:#FFE18A;
     position:fixed;
     top:0;
     z-index:111;
@@ -88,7 +88,7 @@ p {
 .fixed-header ul li a:hover,
 .fixed-header ul li .current{
     color: #fff;
-    border-top:2px solid #FFAE42;
+    border-top:2px solid #F2B277;
 }
 .fixed-header {
     background: transparent;
