@@ -80,15 +80,15 @@ p {
 }
 .fixed-header ul li a{
     text-decoration:none;
-    color:#F2B277;
+    color:#fff;
     font-size: 20px;
     font-weight: 300;
     padding: 10px 30px 0;    
 }
 .fixed-header ul li a:hover,
 .fixed-header ul li .current{
-    color: #F2B277;
-    border-top:2px solid #F2B277;
+    color: #fff;
+    border-top:2px solid #fff;
 }
 .fixed-header {
     background: transparent;
