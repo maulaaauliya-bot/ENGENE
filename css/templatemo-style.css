@@ -61,13 +61,13 @@ p {
     display:none;
 }
 .navbar-brand {
-    color: #fff;
+    color:#F2B277;
     font-weight:300;
     font-size: 38px;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
-    color: #fff;
+    color:#F2B277;
 }
 .fixed-header ul{
     padding:0;
@@ -80,14 +80,14 @@ p {
 }
 .fixed-header ul li a{
     text-decoration:none;
-    color:#fff;
+    color:#F2B277;
     font-size: 20px;
     font-weight: 300;
     padding: 10px 30px 0;    
 }
 .fixed-header ul li a:hover,
 .fixed-header ul li .current{
-    color: #fff;
+    color: #F2B277;
     border-top:2px solid #F2B277;
 }
 .fixed-header {
