@@ -53,7 +53,7 @@ p {
     right: 17px;
     margin: 0;
     z-index: 99999999;
-    color: #fff;
+    color:#fff;
     padding: 10px 10px;
     background-color:#fff;
     border: none;
@@ -395,7 +395,7 @@ p {
     .navbar-toggle {
        display:block;
        top: 15px;
-       background-color: #FFAE42;       
+       background-color: #fff;       
     }
     .fixed-header.scroll .navbar-toggle {
         top: 8px;
@@ -416,7 +416,7 @@ p {
     }
     .main-menu ul {
         width: 100%;
-        background-color: #FFE18A;
+        background-color: #0099FF;
     }
     .main-menu {
         max-height: 0;
